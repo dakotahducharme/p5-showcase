@@ -5,7 +5,7 @@ function Header () {
         <div>
             <header>
                 <div>
-                <h1>Data Vis</h1>
+                <h1><a href="/">Data Vis</a></h1>
                 </div>
                 <div>
                     <ul>

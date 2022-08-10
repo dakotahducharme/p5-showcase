@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Sketch from './routes/Sketch1';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (

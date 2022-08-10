@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Sketch1 from './routes/Sketch1';
 import Sketch2 from './routes/Sketch2';
 import Sketch3 from './routes/Sketch3';
+import Footer from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path="/sketch2" element={<Sketch2 />} />
       <Route path="/sketch3" element={<Sketch3 />} />
     </Routes>
+    <Footer />
   </BrowserRouter>
   
 );

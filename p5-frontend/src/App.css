@@ -2,12 +2,23 @@
   text-align: center;
 }
 
+body {
+  background-color: #090808;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 a {
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: white;
+}
+
+a: {
+  color: #939;
 }
 
 a:hover {
@@ -26,15 +37,25 @@ header {
   align-items: center;
   padding: 2em;
   justify-content: center;
+  color: white;
 }
  li a{
    display: flex;
    padding: 1em;
+   color: white;
  }
 
  .sketch1 {
    display: flex;
    justify-content: center;
    align-content: center;
-   background-color: ;
+   /* background-color: ; */
  }
+
+ footer {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+
+
+  }

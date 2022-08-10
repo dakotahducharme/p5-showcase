@@ -4,27 +4,30 @@ import Sketch from "react-p5";
 
 
 function Sketch3 () {
-    let x = 50;
-    let y = 50;
-    
-    let rotation = 0;
+ 
+    let t;
 
     const setup = (p5, canvasParentRef) => {
         p5.createCanvas(720, 720).parent(canvasParentRef);
+        p5.background(0);
+        t = 0;
+
     }
 
     const draw = (p5) => {
-        // p5.background(0);
-        // p5.ellipse(x, y, 70, 70);
-        if (p5.mouseIspressed){
-            p5.fill(0)
-        } else {
-            p5.fill(255)
-        }
+        p5.background(0, 5)
 
-        p5.ellipse(p5.mouseX, p5.mouseY, 80, 80)
+        let x = p5.width * p5.noise(t);
+        let y = p5.height * p5.noise(t + 5);
+        let r = 255 *p5.noise(t + 10);
+        let g = 255 * p5.noise(t + 15);
+        let b = 255 * p5.noise(t + 20);
 
-        x++
+        p5.noStroke();
+        p5.fill(r, g, b);
+        p5.ellipse(x, y, 120, 120);
+        t = t + 0.01;
+     
     }
 
     return (
