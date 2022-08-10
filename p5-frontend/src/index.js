@@ -9,12 +9,13 @@ import Sketch1 from './routes/Sketch1';
 import Sketch2 from './routes/Sketch2';
 import Sketch3 from './routes/Sketch3';
 import Footer from './Footer';
+import Home from './routes/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Home />} />
       <Route path="/sketch1" element={<Sketch1 />} />
       <Route path="/sketch2" element={<Sketch2 />} />
       <Route path="/sketch3" element={<Sketch3 />} />
