@@ -3,6 +3,7 @@ import App from "../App";
 import Sketch from "react-p5";
 
 
+let x = 50;
 
 function Sketch2 () {
     
