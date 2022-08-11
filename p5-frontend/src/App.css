@@ -51,7 +51,7 @@
 
 body {
   background-color: #090808;
-  /* color: white; */
+  color: white;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
