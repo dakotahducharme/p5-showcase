@@ -4,7 +4,7 @@ import Sketch from './routes/Sketch1';
 import Header from './Header';
 import Footer from './Footer';
 import { createContext, useState } from 'react';
-import ReactSwitch from "react-switch"
+// import ReactSwitch from "react-switch"
 
 export const ThemeContext = createContext(null)
 
