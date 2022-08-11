@@ -122,6 +122,9 @@ header {
     text-align: center;
   }
 
-  /* @media screen {
-    
-  } */
+  #homepage {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+  }
