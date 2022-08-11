@@ -1,13 +1,8 @@
 import React from "react";
 import App from "../App";
 import Sketch from "react-p5"
-import p5Types from "p5";
-import { theme } from "../App"
 // import * as p5 from "p5"
 
-let t;
-let x;
-let y;
 
 // function sketch (p5) {
 //     const setup = (p5, canvasParentRef) => {

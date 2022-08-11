@@ -3,13 +3,9 @@ import App from "../App";
 import Sketch from "react-p5";
 
 
-let x = 50;
-let y = 50;
 
 function Sketch2 () {
     
-    let rotation = 0;
-
     const setup = (p5, canvasParentRef) => {
         p5.createCanvas(720, 720).parent(canvasParentRef);
     }

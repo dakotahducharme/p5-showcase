@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Sketch from './routes/Sketch1';
 import Header from './Header';
 import Footer from './Footer';
 import { createContext, useState } from 'react';
@@ -19,7 +17,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className="App" className={theme}>
+      <div className="App">
         <Header />
         <Footer />
       </div>

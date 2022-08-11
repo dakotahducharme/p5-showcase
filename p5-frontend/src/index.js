@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import { BrowserRouter } from "react-router-dom"; 
 import { Route, Routes } from 'react-router';
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +8,6 @@ import Sketch1 from './routes/Sketch1';
 import Sketch2 from './routes/Sketch2';
 import Sketch3 from './routes/Sketch3';
 import Sketch4 from './routes/Sketch4';
-import Footer from './Footer';
 import Home from './routes/Home';
 // import { ThemeContext } from './ToggleMode';
 
