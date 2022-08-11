@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@fontsource/antonio": "^4.5.8",
-    "p5": "^1.4.2",
-    "react-switch": "^7.0.0"
-  }
-}

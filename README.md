@@ -1,1 +1,1 @@
-# p5-showcase
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d86b0d5a-cfb8-48b6-9fae-ac285a78ec0c/deploy-status)](https://app.netlify.com/sites/p5showcase/deploys)
