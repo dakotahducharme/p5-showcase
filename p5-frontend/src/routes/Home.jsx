@@ -8,7 +8,7 @@ function Home () {
             <div id="homepage">
                 <p>p5.js is a javascript library for creative coding. In this project,
                 I demonstrate 4 examples of how to use the p5 library within a react application. </p>
-                <p>For more creative code, you can my work <a href="https://github.com/dakotahducharme">here</a> on my github</p>
+                <p> For more creative code, you can my work <a href="https://github.com/dakotahducharme">here</a> on my github</p>
             </div>
         </div>
     )
